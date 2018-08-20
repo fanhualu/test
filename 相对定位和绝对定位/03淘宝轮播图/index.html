@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位和相对定位</title>
+	<style type="text/css">
+	*{margin: 0;padding: 0;}
+		.father{
+			width: 520px;
+			height: 280px;
+			margin: 100px auto;
+			background-image: url(imgs/tb.jpg);
+			position: relative;
+		}
+
+		.left,.right{
+			width: 24px;
+			height: 36px;
+			position: absolute;
+			top: 50%;
+			margin-top: -18px;
+		}
+		.left{
+			background-image: url(imgs/left.png);
+			left: 0;
+		}
+		.right{
+			background-image: url(imgs/right.png);
+			right: 0;
+		}
+		ul{
+			width: 70px;
+			height: 13px;
+			background-color: pink;
+			border-radius: 5px;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin-left: -35px;
+			background-color: rgba(255,255,255,0.2); 
+		}
+		li{
+			list-style: none;
+			width: 8px;
+			height: 8px;
+			float: left;
+			margin: 3px;
+			background-color: rgba(255,255,255,0.8); 
+			border-radius: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<div class="left"></div>
+		<div class="right"></div>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+		
+</body>
+</html>

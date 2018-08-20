@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>云道页面-主页</title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		li{list-style: none;}
+		a{text-decoration: none;}
+		div{
+			/*background:white;*/
+		}
+		.head{
+			width: 1900px;
+			height: 100px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.banner{
+			width: 1900px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.head .logo{
+			width: 30%;
+			float: left;
+			text-align: center;
+		}
+		.head .nav{
+			width: 70%;
+			float: left;
+			text-align: center;
+		}
+		.head .nav li{
+			display: inline-block;
+			margin: 0px 20px;
+		}
+		.nav a{
+			text-decoration: none;
+			color: #ccc;
+			height: 100px;
+			line-height: 100px;
+		}
+		.nav a:hover{
+			color: #1C97FE;
+		}
+		.section{
+			padding-top: 70px;
+			text-align: center;
+			color: #666;
+		}
+		.myserver{
+			width: 1000px;
+			margin:0 auto;
+			border-top:1px solid #ccc;
+		}
+		.myserver img{
+			margin-top: -15px;
+		}
+		.myicons{
+			width: 1050px;/*1046px;*/
+			margin: 0px auto;
+			overflow:hidden;
+		}
+		.icon{
+			width: 320px;
+			height: 510px;
+			border: 1px solid #ccc;
+			float: left;
+			margin-top: 50px;
+			padding-top:50px;
+		}
+		.mid{
+			margin:50px 40px 0;
+		}
+		.icon h4{
+			font-weight: normal;
+			font-size: 24px;
+			margin-top: 50px;
+		}
+		.icon p{
+			margin: 20px auto;
+			line-height: 30px;
+			text-align: left;
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+		.icon a{
+			display: block;
+			width: 150px;
+			height:40px;
+			line-height: 40px;
+			text-decoration: none;
+			border: 1px solid #FF9412;
+			border-radius: 15px;
+			color: #FF9412;
+			margin: 50px auto;
+		}
+		.icon a:hover{
+			background-color: #FF9412;
+			color: white;
+		}
+		.sec_mid{
+			margin-top: 124px; 
+		}
+		.serImg{
+			width: 1030px;
+			margin: 45px auto 124px;
+			/*overflow: hidden;*/
+			position: relative;
+		}
+		.serImg li{
+			float: left;
+			margin: 10px;
+			position: relative;
+		}
+		.serBg{
+			width: 322px;
+			height: 211px;
+			background: rgba(0,0,0,0.3) url(images/fdj.png) no-repeat center;
+			position: absolute;
+			left: 0;
+			top: 0;
+			display: none;
+		}
+		.serImg li:hover .serBg{
+			display: block;
+		}
+		.serText{
+			background-color: rgba(0,0,0,0.6);
+			width: 232px;
+			height: 45px;
+			line-height: 45px;
+			color: white;
+			padding: 10px 45px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+		}
+		.left, .right{
+			width: 60px;
+			height: 60px;
+			line-height: 60px;
+			font-size: 30px;
+			background-color: rgba(0,0,0,0.3);
+			border-radius: 50%;
+			position: absolute;
+			z-index: 10;
+			margin-top:-30px;
+			top: 50%;
+			color: white;
+		}
+		.left{
+			left: -80px;
+		}
+		.right{
+			right: -80px;
+
+		}
+		table{
+			margin: 50px auto 200px; 
+		}
+		table, td{
+			border-collapse: collapse;
+		}
+		td{
+			width: 230px;
+			height: 83px;
+			background: url(images/tb.png) no-repeat center;
+			border: 1px dashed #ccc;
+		}
+		.tLine{
+			border-top: none;
+		}
+		.bLine{
+			border-bottom: none;
+		}
+		.lLine{
+			border-left: none;
+		}
+		.rLine{
+			border-right: none;
+		}
+		.footer{
+			height: 170px;
+			background-color: #212425;
+			font-size: 14px;
+			text-align:center;
+			overflow: hidden;
+		}
+		.footer div{
+			background-color: #212425;
+			color: #888;
+			/*margin-top: 50px;*/
+		}
+		.footer span{
+			color: #F0F1F1;
+			padding:10px;
+		}
+		.footer a:hover span{
+			color: #2288F6;
+			text-decoration: underline;
+			font-style: oblique;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<!-- 【1.头部-start】 -->
+	<div class="head">
+		<div class="logo">
+			<img src="images/logo.png">
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#">首页</a></li>
+				<li><a href="#">云云商城</a></li>
+				<li><a href="#">智慧门店</a></li>
+				<li><a href="#">营销平台</a></li>
+				<li><a href="#">媒体联盟</a></li>
+				<li><a href="#">关于云道</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 【1.头部-end  】-->
+	
+	<!-- 【2.banner-start】 -->
+	<div class="banner"><img src="images/banner.jpg"></div>
+	<!-- 【2.banner-end  】 -->
+	
+	<!-- 【3.核心（主体）-start】 -->
+	<div class="section">
+		<!-- 【3-1.我们的服务 -start】 -->
+		<div class="sec_top">
+			<div class="myserver">
+				<img src="images/ser.png" alt="该图片无法显示！">
+				<p>
+					shopcmd云道，国内领先的独立电商解决方案及全渠道营销平台。完整的产品体系,简约的系统,个性化前端,全覆盖多渠道营销体系...我们致力于打造一一个服务于品牌商城/独立电商的完整生态，让企业的独立电商之路变得更简单，也更有价值!
+				</p>
+			</div>
+			<div class="myicons">
+				<div class="icon">
+					<img src="images/icon1.png" alt="该图片无法显示！">
+					<h4>我是卖家</h4>
+					<p>shopcmd云电商解决方案,我们不仅仅是领先的独立商城建站系统。我们从互联网时代品律建设和品牌营销的全新视角,赋予了品牌商城及独立电商更大的生存空间和存在价值!</p>
+					<a href="#">我要建站</a>
+				</div>
+				<div class="icon mid">
+					<img src="images/icon1.png" alt="该图片无法显示！">
+					<h4>我要营销</h4>
+					<p>云道不断完善的营销系统,联合优质媒体资源，集成常用的网络营销模式及终端，以最简单的产品形态,帮助独立商城实现店铺及商品信息在全网的快速分销。</p>
+					<a href="#">我要推广</a>
+				</div>
+				<div class="icon">
+					<img src="images/icon1.png" alt="该图片无法显示！">
+					<h4>媒体合作</h4>
+					<p>真正的全民营销时代,无需学习,无需维护。通过您的网站、朋友圈、媒体流量、移动展现、媒体解决方案获取收益。我们致力于实现合作媒体流量价值的最大化。</p>
+					<a href="#">我要合作</a>
+				</div>
+			</div>
+		</div>
+		<!-- 【3-1.我们的服务 -end  】 -->
+		
+		<!-- 【3-2.经典案例 -start】 -->
+		<div class="sec_mid">
+			<div class="myserver">
+				<img src="images/case.png" alt="该图片无法显示！">
+			</div>
+			<div class="serImg">
+				<ul>
+					<li>
+						<img src="images/pro1.png" />
+						<div class="serText">帮助中小企业快速开启阿萨德三生三世十里桃花小孩好黑娃娃啊</div>
+						<div class="serBg"></div>
+					</li>
+					<li>
+						<img src="images/pro1.png" />
+						<div class="serText">帮助中小企业快速开启阿萨德三生三世十里桃花小孩好黑娃娃啊</div>
+						<div class="serBg"></div>
+					</li>
+					<li>
+						<img src="images/pro1.png" />
+						<div class="serText">帮助中小企业快速开启阿萨德三生三世十里桃花小孩好黑娃娃啊</div>
+						<div class="serBg"></div>
+					</li>
+				</ul>
+				<div style="clear: both;"></div>
+				<div class="left"><</div>
+				<div class="right">></div>
+			</div>
+		</div>
+		<!-- 【3-2.经典案例 -end  】 -->
+		
+		<!-- 【3-3.合作媒体 -start】 -->
+		<div class="sec_btm">
+			<div class="myserver">
+				<img src="images/case.png" alt="该图片无法显示！">
+			</div>
+			<table >
+				<tr>
+					<td class="tLine lLine"></td>
+					<td class="tLine"></td>
+					<td class="tLine"></td>
+					<td class="tLine"></td>
+					<td class="tLine rLine"></td>
+				</tr>
+				<tr>
+					<td class="lLine"></td>
+					<td ></td>
+					<td ></td>
+					<td ></td>
+					<td class="rLine"></td>
+				</tr>
+				<tr>
+					<td class="bLine lLine"></td>
+					<td class="bLine"></td>
+					<td class="bLine"></td>
+					<td class="bLine"></td>
+					<td class="bLine rLine"></td>
+				</tr>
+			</table>
+		</div>
+		<!-- 【3-3.合作媒体 -end  】 -->
+	</div>
+	<!-- 【3.核心（主体）-end  】 -->
+	
+	<!-- 【4.结尾-start】 --><!-- 未完成 -->
+	<div class="footer">
+		<div style="margin-top: 50px; ">
+			<a href="#"><span>shopcmd</span></a>
+			<span>|</span>
+			<a href="#"><span>首页</span></a>
+			<span>|</span>
+			<a href="#"><span>官网云商城</span></a>
+			<span>|</span>
+			<a href="#"><span>智慧门店</span></a>
+			<span>|</span>
+			<a href="#"><span>营销平台</span></a>
+			<span>|</span>
+			<a href="#"><span>媒体联盟</span></a>
+			<span>|</span>
+			<a href="#"><span>关于我们</span></a>
+		</div>
+		<div style="padding-top: 30px;">&copyCopyright 2015 苏州海云网络科技有限公司版权所有 | 苏ICP备15038170号-3</div>
+	</div>
+	<!-- 【4.结尾-end  】 -->
+	
+</body>
+</html>

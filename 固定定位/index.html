@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>固定定位案例 —— 新浪广告栏</title>
+	<style type="text/css">
+		*{margin:0;padding: 0;}
+		.main{
+			width: 1002px;
+			height: 1760px;
+			background-image: url(imgs/box.png);
+			margin:44px auto 0px; 
+		}
+		.top{
+			width: 1518px;
+			height: 44px;
+			background-image: url(imgs/top.png);
+			position: fixed;
+			top: 0px;
+			left: 50%;
+			margin-left: -759px;
+
+		}
+		.adL,.adR{
+			width: 120px;
+			height: 288px;
+			position: fixed;
+			top: 50%;
+			margin-top: -144px; 
+		}
+		.adL{
+			background-image: url(imgs/ad-l.png);
+			left: 0;
+		}
+		.adR{
+			background-image: url(imgs/ad-r.png);
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="top"></div>
+	<div class="main"></div>
+	<div class="adL"></div>
+	<div class="adR"></div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>绝对定位（子绝父相）——哈根达斯案例</title>
+	<style type="text/css">
+		.father{
+			width: 310px;
+			height: 190px;
+			padding: 10px;
+			border: 1px solid #ccc;
+			margin: 100px auto;
+			position: relative;
+
+		}
+		.father div{
+			width: 60px;
+			height: 54px;
+			position:absolute;
+			
+		}
+		.left{
+			background-image: url("imgs/top_tu.gif");
+			left: 0px;
+			top: 0px;
+		}
+		.right{
+			background-image: url("imgs/br.gif");
+			right: 0px;
+			bottom: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="father">
+		<img src="imgs/adv.jpg" />
+		<div class="left"></div>
+		<div class="right"></div>
+	</div>
+</body>
+</html>
